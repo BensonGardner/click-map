@@ -1,18 +1,28 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Welcome to Click Map</h1>
+    <p>
+      Instructions go here
+      <font-awesome-icon icon="map-pin" />
+    </p>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
-
 export default {
+  // TODO what does this do?
   name: 'Home',
-  components: {
-    HelloWorld,
-  },
 };
 </script>
+
+<style scoped>
+.home {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 1rem;
+}
+</style>
