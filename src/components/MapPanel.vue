@@ -21,3 +21,17 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+#map-panel {
+  height: 300px;
+  order: 1;
+}
+
+@media (min-width: 992px) {
+  #map-panel {
+    height: 100%;
+    order: 2 !important;
+  }
+}
+</style>

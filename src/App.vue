@@ -22,11 +22,18 @@ export default {
 <style scoped>
 #app {
   display: flex;
-  height: 100vh;
+  flex-direction: column;
 }
 
-.panel {
-  flex-basis: 0;
-  flex-grow: 1;
+@media (min-width: 992px) {
+  #app {
+    flex-direction: row;
+    height: 100vh;
+  }
+
+  .panel {
+    flex-basis: 0;
+    flex-grow: 1;
+  }
 }
 </style>
