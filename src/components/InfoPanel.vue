@@ -7,6 +7,7 @@
 <style scoped>
 #info-panel {
   order: 2;
+  padding: 1rem;
 }
 
 @media (min-width: 992px) {
